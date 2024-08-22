@@ -1,0 +1,528 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+header {
+    background-color: white;
+    padding: 1.5rem;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-family:Harlow Solid Italic;
+    color: #13C5DD;
+    font-weight: bold;
+    height: 10px;
+}
+
+.logo:hover {
+   color:#1D2A4D;
+}
+
+.logo img {
+    height: 55px;
+    width: 55px;
+}
+
+.nav-links {
+    list-style: none;
+    width: 100%;
+    overflow: auto;
+    padding: 5px;
+}
+
+.nav-links ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+    float: right;
+}
+
+.nav-links a {
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    font-size: 17px;
+    color: #1D2A4D;
+    padding: 20px 10px;
+    font-family: ArabBrud;
+    border-radius: 10px;
+}
+
+.nav-links a:hover {
+    background-color: #13C5DD;
+    color: white;
+}
+
+/*Hero*/
+.hero {
+    padding: 254px;
+    background-image: url(images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 25px;
+    text-size-adjust: 10px;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    color: #13C5DD;
+    font-size: 1.5rem;
+    font-family: AnzeigenGroT;
+    text-decoration-line: underline;
+    text-decoration-color: gray;
+    text-transform: uppercase;
+    position: absolute;
+    top: 230px;
+    left: 200px;    
+}
+
+.hero p {
+    font-family: AnzeigenGroT;
+    font-size: 5rem;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 300px;
+    left: 200px;  
+}
+
+.select {
+    display: inline-block;
+    background-color: white;
+    color:#1D2A4D;
+    padding: 15px 57px;
+    text-decoration: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 530px;
+    left: 150px;
+    font-size: 17px;
+    font-family: ArabBrud;
+}
+
+.btn {
+    display: inline-block;
+    background-color: white;
+    color:#1D2A4D;
+    padding: 18px 35px;
+    text-decoration: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 530px;
+    left: 450px;
+    font-size: 17px;
+    font-family: ArabBrud;
+}
+
+.btn:hover {
+    background-color: #13C5DD;
+    color: white;
+}
+
+/*About*/
+.about {
+    padding: 50px;
+}
+
+.about img {
+    About1: url('images/About1.jpg');
+    border: white;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 400px;
+    height: 600px;
+    
+}
+
+.about-text {
+    position: absolute;
+    top: 700px;
+    left: 500px;
+    padding: 50px;
+}
+
+.about h2 {
+    font-size: 1.5rem;
+    font-family: AnzeigenGroT;
+    color: #13C5DD;
+    text-decoration-line: underline;
+    text-decoration-color: gray;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about p {
+    text-indent: 50px;
+    font-family: ArabBrud;
+    font-size: 30px;
+    top: 1000px;
+    text-align: justify;
+}
+
+.abouticon {
+    padding: 10px;
+    font-size: 50px;
+    word-spacing: 300px;
+    text-align: center;
+}
+
+
+/*Service*/
+.service {
+    padding: 50px;
+    background-color: #13C5DD;
+}
+
+.service img {
+    Service: url('images/Service.jpg');
+    border: white;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 400px;
+    height: 600px;
+    float: right;
+    
+}
+
+.service h2 {
+    font-size: 1.5rem;
+    font-family: AnzeigenGroT;
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: gray;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.list-style1 {
+    font-family: ArabBrud;
+    font-size: 20px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.list-style1 li {
+    padding: 3px;
+}
+
+/*Appointment*/
+.Appointment{
+    padding: 50px;
+    background-color: white;
+    height: 590px;   
+}
+
+.appointment-text {
+    position: absolute;
+    top: 2200px;
+    left: 500px;
+    padding: 50px
+}
+
+.Appointment h2 {
+    font-size: 1.5rem;
+    font-family: AnzeigenGroT;
+    color: #13C5DD;
+    text-decoration-line: underline;
+    text-decoration-color: gray;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.Appointment p {
+    text-align: justify;
+    text-indent: 50px;
+    font-family: ArabBrud;
+    font-size: 30px;
+}
+
+main {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(191, 233, 249);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 2180px;
+    left: 50px;
+   
+}
+
+.appointment-form {
+    text-align: left;   
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #0074a2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button[type="submit"]:hover {
+    background-color: #005d8b;
+}
+
+/*footer*/
+footer {
+    background-color: rgb(9, 44, 69);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer1 h3 {
+    font-family: AnzeigenGroT;
+    color: #13C5DD;
+    text-decoration-line: underline;
+    text-decoration-color: gray;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.item-1 p {
+    font-weight: bold;
+    font-family: ArabBrud;
+}
+
+.item-2 ul li {
+    font-size: 20px;
+    font-family: ArabBrud;
+    color: white;
+}
+
+.item-3 ul {
+    font-size: 20px;
+    color: white;
+    font-family: ArabBrud;
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+.social-icons a {
+    font-size: 30px;
+    margin-right: 15px;
+    color: white; /* Set the color of the icons to black */
+}
+
+.contact-icons {
+    font-size: 24px;
+}
+
+.contact-icons i {
+    margin-right: 10px;
+    color: white; /* Set the color of the icons to black */
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 30px;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+    z-index: 99;
+}
+
+/* Header styles for small screens */
+@media only screen and (max-width: 768px) {
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .nav-links li {
+        margin-right: 10px;
+    }
+
+    .nav-links a {
+        width: auto;
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+}
+/*about*/
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 30px;
+    }
+
+    .about img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .about-text {
+        position: static;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .about h2 {
+        font-size: 1.2rem;
+    }
+
+    .about p {
+        font-size: 20px;
+        text-indent: 30px;
+    }
+
+    .abouticon {
+        font-size: 40px;
+        word-spacing: normal;
+    }
+}
+/*service*/
+@media screen and (max-width: 768px) {
+    .service {
+        padding: 30px;
+    }
+
+    .service img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        float: none;
+        margin-bottom: 20px; /* Adjust margin as needed */
+    }
+
+    .service h2 {
+        font-size: 1.2rem;
+    }
+
+    .list-style1 {
+        font-size: 18px;
+    }
+
+    .list-style1 li {
+        padding: 2px;
+    }
+} 
+
+/*hero*/
+@media screen and (max-width: 768px) {
+    .hero {
+        padding: 100px; /* Adjust padding as needed */
+    }
+
+    .hero h1 {
+        font-size: 1.2rem;
+        top: 130px;
+        left: 50px;
+    }
+
+    .hero p {
+        font-size: 3rem;
+        top: 200px;
+        left: 50px;
+    }
+
+    .select {
+        padding: 10px 40px;
+        top: 400px;
+        left: 50px;
+    }
+
+    .btn {
+        padding: 12px 25px;
+        top: 400px;
+        left: 250px;
+    }
+}
+
+/*appointment*/
+
+
+/* Footer styles for small screens */
+@media only screen and (max-width: 768px) {
+    .footer1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer1 h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .item-1 p,
+    .item-2 ul li,
+    .item-3 ul {
+        font-size: 16px;
+    }
+
+    .social-icons,
+    .contact-icons {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .social-icons a,
+    .contact-icons i {
+        margin-right: 10px;
+    }
+
+}
+
+
+

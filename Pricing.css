@@ -1,0 +1,205 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+header {
+    background-color: white;
+    padding: 1.5rem;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-family:Harlow Solid Italic;
+    color: #13C5DD;
+    font-weight: bold;
+    height: 10px;
+}
+
+.logo:hover {
+   color:#1D2A4D;
+}
+
+.logo img {
+    height: 55px;
+    width: 55px;
+}
+
+.nav-links {
+    list-style: none;
+    width: 100%;
+    overflow: auto;
+    padding: 5px;
+}
+
+.nav-links ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+    float: right;
+}
+
+.nav-links a {
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    font-size: 17px;
+    color: #1D2A4D;
+    padding: 20px 10px;
+    font-family: ArabBrud;
+    border-radius: 10px;
+}
+
+.nav-links a:hover {
+    background-color: #13C5DD;
+    color: white;
+}
+
+/*prices*/
+.price {
+    padding: 20px;
+}
+
+.price p {
+    font-size: 20px;
+    font-family: ArabBrud;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #13C5DD;
+    padding: 8px;
+    text-align: left;
+}
+
+/*footer*/
+footer {
+    background-color: rgb(9, 44, 69);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer1 h3 {
+    font-family: AnzeigenGroT;
+    color: #13C5DD;
+    text-decoration-line: underline;
+    text-decoration-color: gray;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.item-1 p {
+    font-weight: bold;
+    font-family: ArabBrud;
+}
+
+.item-2 ul li {
+    font-size: 20px;
+    font-family: ArabBrud;
+    color: white;
+}
+
+.item-3 ul {
+    font-size: 20px;
+    color: white;
+    font-family: ArabBrud;
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+.social-icons a {
+    font-size: 30px;
+    margin-right: 15px;
+    color: white; /* Set the color of the icons to black */
+}
+
+.contact-icons {
+    font-size: 24px;
+}
+
+.contact-icons i {
+    margin-right: 10px;
+    color: white; /* Set the color of the icons to black */
+}
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* Header styles for small screens */
+@media only screen and (max-width: 768px) {
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .nav-links li {
+        margin-right: 10px;
+    }
+
+    .nav-links a {
+        width: auto;
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+}
+
+
+/* Footer styles for small screens */
+@media only screen and (max-width: 768px) {
+    .footer1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer1 h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .item-1 p,
+    .item-2 ul li,
+    .item-3 ul {
+        font-size: 16px;
+    }
+
+    .social-icons,
+    .contact-icons {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .social-icons a,
+    .contact-icons i {
+        margin-right: 10px;
+    }
+}
+
+
+
+
